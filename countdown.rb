@@ -11,6 +11,6 @@ end
 def countdown_with_sleep (number)
   countdown(number)
   while number > 0 
-    sleep 2.seconds until number == 0 
+    sleep (2) until number == 0 
   end
 end
