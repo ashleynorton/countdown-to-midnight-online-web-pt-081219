@@ -9,5 +9,6 @@ def countdown (number)
 end
 
 def countdown_with_sleep (number)
+  countdown(number)
   sleep 2.seconds until number == 0 
 end
